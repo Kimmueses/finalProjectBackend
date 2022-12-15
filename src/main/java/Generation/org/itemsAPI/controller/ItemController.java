@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/item/all")
 public class ItemController {
 
-    final ItemServiceMySQL itemService;
+     final ItemServiceMySQL itemService;
 
     public ItemController(ItemServiceMySQL itemServiceMySQL) {
         this.itemService = itemServiceMySQL;
