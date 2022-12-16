@@ -1,0 +1,118 @@
+body {
+  width: 100%;
+  height: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Navbar */
+.navbar {
+  padding-top: 10px;
+  margin-top: 20px;
+  --bs-navbar-color: black;
+  /* position:    */
+}
+.navbar-brand {
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  background-image: url(./../Images/company\ name12.png);
+  background-position: center center;
+  width: 200px;
+  height: 50px;
+}
+
+div > .navbar-collapse {
+  margin-left: 260px;
+  justify-content: center;
+}
+
+ul .navbar-nav.me-auto.mb-2.mb-lg-0 {
+  padding-left: 80px;
+}
+
+span.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 700, "GRAD" 0, "opsz" 48;
+  padding-top: 10px;
+}
+.card img {
+  height: 250px;
+  width: 250px;
+  padding-left: 20px;
+  padding-top: 20px;
+  border-radius: 50px;
+  }
+
+
+/*new about us styling*/
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+/*new footer styling*/
+
+
+/* footer section end */

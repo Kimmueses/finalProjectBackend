@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="/CSS/styles.css" />
+    <script src="/js/itemsController.js" defer></script>
+    <script src="products.html" defer></script>
+    <script src="/js/index.js" defer></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- Navbar  -->
+
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+          <br /><br />
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home |</a>
+            </li>
+            <br />
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About |</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/products.html">Products |</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/item_form.html">Form |</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/login.html">Login </a>
+            </li>
+            <span class="material-symbols-outlined">
+              shopping_cart_checkout
+            </span>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <body>
+      
+    <main class="container">
+      <h1 class="pt-5">Add New Item</h1>
+      <hr />
+      <form id="newItemForm">
+        <div class="mb-3">
+          <label for="item-name" class="form-label"> Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="newItemName"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="item-description" class="form-label"
+            >Description</label
+          >
+          <textarea
+            class="form-control"
+            id="newItemDescription"
+            rows="3"
+            required
+          ></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="item-image-url" class="form-label"
+            >Image URL</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="newItemImageUrl"
+            required
+          />
+        </div>
+       
+        <div class="mb-3">
+          <label for="item-price" class="form-label">Price</label>
+          <input
+            type="number"
+            class="form-control"
+            id="newItemPrice"
+            placeholder="$"
+            min="1"
+            required
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Add Item</button>
+      </form>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+       <script type="module" src="js/itemsController.js"></script>
+    <script type="module" src="js/items-form.js"></script>
+  </body>
+</html>
